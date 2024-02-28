@@ -8,15 +8,15 @@ export default {
 
 <template>
 
-    <h1>La mia prima app con Vite!</h1>
+    <h1>It's me, Vite!</h1>
 
 </template>
 
 <style>
 
 h1 {
-    color: rgb(229, 194, 40);
-    font-size:large;
+    color: rgb(223, 39, 39);
+    font-size:50px;
     font-weight: bolder;
     padding-bottom: 50px;
     text-align: center;
