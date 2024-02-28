@@ -15,9 +15,11 @@ export default {
 <style>
 
 h1 {
-    color: aqua;
+    color: rgb(229, 194, 40);
     font-size:large;
     font-weight: bolder;
+    padding-bottom: 50px;
+    text-align: center;
 }
 
 </style>
