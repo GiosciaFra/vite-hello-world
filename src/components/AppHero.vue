@@ -26,7 +26,7 @@ export default {
         <hr>
 
         <div class="photo">
-            <img src="https://picsum.photos/400" alt="">
+            <img src="../assets/img/mario.png" alt="">
 
 
         </div>
@@ -37,20 +37,22 @@ export default {
 
 <style>
 
-
-#jumbo {
+#app {
     display: flex;
-    flex-direction: column;
-    text-align: start;
+    justify-content: center;
 }
 
-#jumbo .title p {
+#jumbo, #jumbo .title p {
     padding-bottom: 50px;
 }
 
 #jumbo .photo {
-    padding-top: 80px;
+    padding-top: 40px;
     text-align: center;
+}
+
+#jumbo .photo img {
+    height: 350px;
 }
 
 </style>
